@@ -16,6 +16,8 @@ export default {
     ]
   },
 
+  loading: { color: '#3fb27f' },
+
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
   ],
@@ -33,6 +35,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/axios'
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
